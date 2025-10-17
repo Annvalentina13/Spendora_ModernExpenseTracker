@@ -1,4 +1,4 @@
-# ✨ Smart Expense Tracker: Modern Desktop Finance App
+# ✨ Spendora - Smart Expense Tracker: Modern Desktop Finance App
 
 **(Java Swing | FlatLaf | MySQL | JFreeChart)**
 
@@ -88,4 +88,5 @@ String pass = "YOUR_MYSQL_PASSWORD"; // ⚠️ IMPORTANT: Replace this value!
 
 ### 🤝 Contribution
 Developed by Annie Valentina A.
+
 
