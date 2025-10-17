@@ -70,21 +70,22 @@ CREATE TABLE budgets (
     PRIMARY KEY (user_id, category),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
-2. Configure Credentials
-Open the ModernExpenseTracker.java file.
+```
+### 2. Configure Credentials
+* Open the ModernExpenseTracker.java file.
+* Update the connectToDatabase() method with your local MySQL credentials:
 
-Update the connectToDatabase() method with your local MySQL credentials:
-
-Java
-
+```
 // In ModernExpenseTracker.java
 String pass = "YOUR_MYSQL_PASSWORD"; // ⚠️ IMPORTANT: Replace this value!
-3. Build and Run
-Ensure all necessary external JAR files (MySQL Connector, FlatLaf, JFreeChart, iTextPDF) are included in your project's classpath.
+```
 
-Compile and run the ModernExpenseTracker.java class.
+### 3. Build and Run
+* Ensure all necessary external JAR files (MySQL Connector, FlatLaf, JFreeChart, iTextPDF) are included in your project's classpath.
+* Compile and run the ModernExpenseTracker.java class.
+* Use the Register function to create a new user account and begin tracking.
+---
 
-Use the Register function to create a new user account and begin tracking.
+### 🤝 Contribution
+Developed by Annie Valentina A.
 
-🤝 Contribution
-Developed by [Your Name/GitHub Username].
